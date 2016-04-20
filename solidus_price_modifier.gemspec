@@ -3,20 +3,19 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'solidus_price_modifier'
   s.version     = '0.0.1'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Price Modifier Pricer for Solidus'
+  s.description = 'Deprecated Price modifying behaviour'
   s.required_ruby_version = '>= 2.1'
 
-  # s.author    = 'You'
-  # s.email     = 'you@example.com'
-  # s.homepage  = 'http://www.spreecommerce.com'
+  s.author    = 'Martin Meyerhoff'
+  s.email     = 'martin@stembolt.com'
 
   s.files       = `git ls-files`.split("\n")
   s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = "lib"
   s.requirements << "none"
 
-  s.add_dependency "solidus", [">= 1.0.0", "< 1.2.0"]
+  s.add_dependency "solidus", ["~> 1.3.0alpha"]
 
   s.add_development_dependency "rspec-rails", "~> 3.2"
   s.add_development_dependency "simplecov"
