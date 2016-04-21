@@ -1,6 +1,8 @@
 SolidusPriceModifier
 ====================
 
+[![Build Status](https://travis-ci.org/solidusio-contrib/solidus_price_modifier.svg?branch=master)](https://travis-ci.org/solidusio-contrib/solidus_price_modifier)
+
 This extension extracts a deprecated pricing hack from Solidus core. It consists of freedom patches on both
 `Spree::Variant` and `Spree::LineItem`, which your app should implement.
 
