@@ -52,7 +52,7 @@ Installation
 Add solidus_price_modifier to your Gemfile:
 
 ```ruby
-gem 'solidus_price_modifier'
+gem 'solidus_price_modifier', github: 'solidusio-contrib/solidus_price_modifier'
 ```
 
 Bundle your dependencies and run the installation generator:
